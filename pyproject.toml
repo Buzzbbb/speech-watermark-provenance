@@ -1,0 +1,18 @@
+[project]
+name = "speech-watermark-provenance"
+version = "0.1.0"
+description = "语音模型输出水印与溯源工具"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "林裕斌" },
+  { name = "曾科" },
+  { name = "田承金" },
+  { name = "吕善翔" }
+]
+
+[project.scripts]
+speech_watermark_provenance = "speech_watermark_provenance.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
